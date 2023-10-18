@@ -81,8 +81,6 @@ function changeRangeValue(input, val){
         input.value = val < 0 ? 0 : val > 100 ? 100 : val;
     }
     document.getElementById(input.nextElementSibling.id).value = isNaN(parseInt(val, 10)) ? 0 : parseInt(val, 10);
-    // var property = input.id[input.id.length - 1];
-    // colorPicker.color.rgb.property = val;
 }
 
 function changeInputValue(input, val){

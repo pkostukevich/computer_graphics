@@ -1,20 +1,11 @@
-/* body{
-     background-color: rgb(27, 0, 37); 
-} */
 
 .wrapper{
     width: 90vw;
     padding: 30px;
     margin: auto;
-    /* background-color: rgba(196, 255, 255); */
 }
 
-/* #picker .iroWheel, .iroSlider{
-    margin: auto;
-} */
-
 .wrap {
-    /* min-height: 100vh; */
     max-width: 720px;
     margin: 0 auto;
     display: flex;
@@ -57,17 +48,14 @@
 }
 
 .rgb{
-    /* background-color: antiquewhite; */
     width: 32%;
 }
 
 .cmyk{
-    /* background-color: rgb(222, 236, 116); */
     width: 32%;
 }
 
 .hsv{
-    /* background-color: rgb(244, 164, 240); */
     width: 32%;
 }
 
