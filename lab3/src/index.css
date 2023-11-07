@@ -1,0 +1,66 @@
+.root{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 580px;
+    width: 1000px;
+    margin: auto;
+}
+
+h5{
+    margin: 0px;
+}
+
+canvas{
+    margin: 50px;
+    border: solid 1px #000;
+}
+
+.canv{
+    width: 550px;
+    height: 550px;
+}
+
+.parametrWrapper{
+    margin-top: 30px;
+}
+
+.algorithm{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.algorithm button{
+    margin: 3px;
+}
+
+.coords{
+    margin: 10px;
+}
+.coordsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.coords input{
+    margin  : 3px;
+    width: 50px;
+}
+
+.scale{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 10px;
+}
+
+#button{
+    padding: 4% 30%;
+    margin: 10px;
+    background-color: #caf2df;
+    border-radius: 7px;
+}
